@@ -1,0 +1,92 @@
+[
+    {
+        "name": "create_proof",
+        "inputs": [
+            {
+                "name": "bpid",
+                "type": "string"
+            },
+            {
+                "name": "did",
+                "type": "string"
+            },
+            {
+                "name": "proof",
+                "type": "string"
+            },
+            {
+                "name": "range",
+                "type": "string"
+            }
+        ],
+        "outputs": [],
+        "constant": "false",
+        "type": "function"
+    },
+    {
+        "name": "get_proof",
+        "inputs": [
+            {
+                "name": "bpid",
+                "type": "string"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "constant": "true",
+        "type": "function"
+    },
+    {
+        "name": "verify_proof",
+        "inputs": [
+            {
+                "name": "proof",
+                "type": "string"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "constant": "true",
+        "type": "function"
+    },
+    {
+        "name": "update_proof",
+        "inputs": [
+            {
+                "name": "bpid",
+                "type": "string"
+            },
+            {
+                "name": "did",
+                "type": "string"
+            },
+            {
+                "name": "status",
+                "type": "int32"
+            }
+        ],
+        "outputs": [],
+        "constant": "false",
+        "type": "function"
+    },
+    {
+        "name": "Notify",
+        "inputs": [
+            {
+                "type": "string"
+            },
+            {
+                "type": "int32"
+            }
+        ],
+        "type": "event"
+    }
+]
